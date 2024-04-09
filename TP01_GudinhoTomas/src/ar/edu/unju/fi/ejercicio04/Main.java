@@ -21,7 +21,6 @@ public class Main {
 			 }
 			 else {
 				 scanner.next();
-				 flag = false;
 			 } 
 		}while(!flag);
 		
