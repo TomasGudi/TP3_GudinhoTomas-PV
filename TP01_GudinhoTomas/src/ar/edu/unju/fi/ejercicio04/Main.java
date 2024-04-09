@@ -15,7 +15,7 @@ public class Main {
 			System.out.println("ingrese un numero entre 0 y 10: ");
 			 if(scanner.hasNextInt()) {
 				 num = scanner.nextInt();
-				 if(num>=0 && num<11) {
+				 if(num >= 0 && num < 11) {
 					 flag = true;
 			 	}
 			 }
