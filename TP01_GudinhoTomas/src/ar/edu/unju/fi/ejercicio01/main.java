@@ -2,7 +2,7 @@ package ar.edu.unju.fi.ejercicio01;
 
 public class main {
 	
-	public static void ejercicio01() {
+	public static void main(String[] args) {
 		float n1 = 3;
 		float n2 = 8;
 		float n3 = 2;
