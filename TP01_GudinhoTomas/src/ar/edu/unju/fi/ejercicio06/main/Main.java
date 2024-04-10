@@ -12,7 +12,7 @@ public class Main {
         Persona persona1 = new Persona();
         //Persona.mostrarDatos(persona1);
 
-        System.out.println("\nIngrese datos para persona con constructor parametrizado:");
+        System.out.println("\nIngrese datos:");
         System.out.print("DNI: ");
         String dni = scanner.next();
         System.out.print("Nombre: ");
@@ -26,7 +26,7 @@ public class Main {
         Persona persona2 = new Persona(dni, nombre, fechaNacimiento, provincia);
         Persona.mostrarDatos(persona2);
 
-        System.out.println("\nIngrese datos para persona con constructor simplificado:");
+        System.out.println("\nIngrese datos");
         System.out.print("DNI: ");
         dni = scanner.next();
         System.out.print("Nombre: ");
