@@ -4,6 +4,7 @@ public class Empleado {
        private String nombre;
 	   private String legajo;
 	   private double salario;
+	   
 	   public final double Minimo = 210000.00;
 	   public final double Merito = 20000.00;
 	   
