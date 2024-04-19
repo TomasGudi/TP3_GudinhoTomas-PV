@@ -6,9 +6,9 @@ public class Pizza {
 	    private double area;
 	    private boolean ingreEspeciales;
 
-	    private static final int Especial20 = 500;
-	    private static final int Especial30 = 750;
-	    private static final int Especial40 = 1000;
+	    private static final int ESPECIAL20 = 500;
+	    private static final int ESPECIAL30 = 750;
+	    private static final int ESPECIAL40 = 1000;
 
 	    public Pizza() {
 	    }
@@ -22,7 +22,7 @@ public class Pizza {
 	        switch (diametro) {
 	            case 20:
 	            	if (ingreEspeciales) {
-	            		precio = 4500 + Especial20;
+	            		precio = 4500 + ESPECIAL20;
 	            	}
 	            	else {
 	            		precio = 4500;
@@ -30,7 +30,7 @@ public class Pizza {
 	                break;
 	            case 30:
 	            	if (ingreEspeciales) {
-	            		precio = 4800 + Especial30;
+	            		precio = 4800 + ESPECIAL30;
 	            	}
 	            	else {
 	            		precio = 4800;
@@ -38,7 +38,7 @@ public class Pizza {
 	                break;
 	            case 40:
 	            	if (ingreEspeciales) {
-	            		precio = 5500 + Especial40;
+	            		precio = 5500 + ESPECIAL40;
 	            	}
 	            	else {
 	            		precio = 5500;

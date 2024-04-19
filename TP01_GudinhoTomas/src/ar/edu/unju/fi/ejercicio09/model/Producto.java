@@ -2,7 +2,7 @@ package ar.edu.unju.fi.ejercicio09.model;
 
 public class Producto {
 		private String Nombre;
-		private int codigo;
+		private String codigo;
 		private double precio;
 		private int descuento;
 		
@@ -30,11 +30,11 @@ public class Producto {
 			Nombre = nombre;
 		}
 
-		public int getCodigo() {
+		public String getCodigo() {
 			return codigo;
 		}
 
-		public void setCodigo(int codigo) {
+		public void setCodigo(String codigo) {
 			this.codigo = codigo;
 		}
 
