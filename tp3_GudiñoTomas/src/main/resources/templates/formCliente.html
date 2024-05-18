@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario-TP3</title>
+<link rel="stylesheet" href="/css/styles.css"></link>
+</head>
+<body>
+	<header class="main">
+    <h1 class="tittle">Java y Programacion Visual</h1>
+    <nav class="nav">
+        <ul class="list">
+            <li><a class="nav-link" href="#Formulario">Formulario</a></li>
+            <li><a class="nav-link" href="#Adicional">Adicional</a></li>
+            <li><a class="nav-link" href="#Ejemplos">Ejemplos</a></li>
+        </ul>
+    </nav>
+    
+</header>
+	<main class="main">
+		<h1 class="tittle">Formulario</h1>
+		<section class="section" id="formulario">
+		<form>
+			<label for="dni">DNI:</label>
+			<input id="dni" type="number" required placeholder="Ingrese DnI" name="dni"></input><br>
+			<label for="nombre">Nombre:</label>
+			<input id="nombres" type="text" required placeholder="Ingrese Nombre" name="nombres"></input><br>
+			<label for="apellidos">Apellido:</label>
+			<input id="apellidos" type="text" required placeholder="Ingrese Apellido" name="apellidos"></input><br>
+			<label for="fechaNacimiento">F Nacimiento:</label>
+			<input id="fechaNacimiento" type="date" required placeholder="Ingrese Fecha de Nacimiento" name="fechaNacimiento"></input><br>
+			<div>		
+				<label for="generoM">M</label>
+				<input id="generoM" type="radio" value="Masculino" name="genero"></input><br>
+				<label for="generoF">F</label>
+				<input id="generoF" type="radio" value="Femenino" name="genero"></input><br>
+				<label for="generoX">X</label>
+				<input id="generoX" type="radio" value="Otro" name="genero"></input><br>
+			</div>	
+			<label for="correoElectronico">Correo electronico:</label>
+			<input id="correoElectronico" type="email" required placeholder="Ingrese Correo electronico" name="correoElectronico"></input><br>
+			<label for="domicilio">Domicilio:</label>
+			<input id="domicilio" type="text" required placeholder="Ingrese domicilio" name="domicilio"></input><br>
+			<label for="provincia">Provincia:</label>
+			<select id="provincia" required name="provincia">
+				<option value="Jujuy">Jujuy</option>
+				<option value="Salta" selected>Salta</option>
+				<option value="Misiones">Misiones</option>
+				<option value="Tucuman">Tucuman</option>
+			</select><br>
+			<label for="numeroTelefono">Numero de Telefono:</label>
+			<input id="numeroTelefono" type="number" placeholder="Ingrese Numero de Telefono" name="numeroTelefono"></input><br>
+			<label>Categoria de Interes:</label>
+			<div>
+				<label for="interes1">intereses1:</label>
+				<input id="interes1" type="checkbox" name="intereses"></input><br>
+				<label for="interes2">intereses2:</label>
+				<input id="interes2" type="checkbox" name="intereses"></input><br>
+				<label for="interes3">intereses3:</label>
+				<input id="interes3" type="checkbox" name="intereses"></input><br>
+			</div>
+			<label for="sugerencia">Sugerencias:</label><br>
+			<textarea id="sugerencia" placeholder="Ingrese Sugerencias" name="sugerencia" rows="8" cols="40"></textarea><br>
+			<label for="password">Password:</label>
+			<input id="password" type="password" required placeholder="Ingrese Password" name="password" maxlength="10" min="4"></input><br>
+			<label for="passwordOtra">Password otra vez:</label>
+			<input id="passwordOtra" type="password" required placeholder="Ingrese Password otra vez" name="passwordOtra" maxlength="10" min="4"></input><br>
+			<label for="t&c">Acepto los términos y condiciones:</label>
+			<input id="t&c" type="checkbox" required name="t&c"></input><br>
+			<label for="informacion">Acepto recibir información relativa a la empresa:</label>
+			<input id="informacion" type="checkbox" name="informacion"></input><br>
+			<input type="button" value="Cancelar">
+			<input type="submit" value="Guardar">
+		</form>
+		</section>
+	</main>
+	<aside class="adicional" id="adicional">
+    	<h2 class="tittle">Recursos adicionales</h2>
+    	<img class="aside-image" src="formulario1.png" alt="imagen adicional">
+	</aside>
+	<footer id="footer">
+    <p class="paragraph">Contacto: ejemplo@correo.com</p>
+    <p class="paragraph">Síguenos en redes sociales:</p>
+    <ul class="list">
+        <li><a class="footer-link" href="https://facebook.com/ejemplo">Facebook</a></li>
+        <li><a class="footer-link" href="https://twitter.com/ejemplo">Twitter</a></li>
+    </ul>
+</footer>
+</body>
+</html>
